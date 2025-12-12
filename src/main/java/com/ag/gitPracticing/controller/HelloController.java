@@ -16,4 +16,9 @@ public class HelloController {
     public String bye() {
         return "Bye, new project!";
     }
+    
+    @GetMapping("/laugh")
+    public String laugh() {
+        return "Laugh, new project!";
+    }
 }
