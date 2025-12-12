@@ -8,6 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-    	return "Hello from feature 1!";
+    	return "Hello from merged version!";
+
     }
 }
