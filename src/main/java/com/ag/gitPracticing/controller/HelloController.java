@@ -11,4 +11,9 @@ public class HelloController {
     	return "Hello from merged version!";
 
     }
+    
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye, new project!";
+    }
 }
